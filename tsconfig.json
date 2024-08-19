@@ -1,0 +1,15 @@
+{
+    "extends": "@zardoy/tsconfig",
+    "compilerOptions": {
+        "target": "ESNext",
+        "outDir": "dist",
+        "declaration": true,
+        "declarationMap": true,
+        "noEmit": false,
+        "module": "ESNext",
+        "moduleResolution": "Node"
+    },
+    "include": [
+        "src"
+    ]
+}
