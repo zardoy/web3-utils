@@ -7,6 +7,9 @@
         "build": "tsc",
         "watch": "tsc --watch"
     },
+    "files": [
+        "dist"
+    ],
     "type": "module",
     "bin": {
         "gen-abi-types": "./dist/genAbiTypesBin.js"
